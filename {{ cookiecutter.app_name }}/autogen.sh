@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
 
-aclocal && autoconf && automake --{{ cookiecutter.feature_method }}-missing
+aclocal && autoconf && automake --add-missing
 
 exit 0
