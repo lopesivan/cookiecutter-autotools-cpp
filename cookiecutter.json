@@ -8,8 +8,8 @@
     "feature_class_name": "MyAdd",
     "feature_file_name": "{{ cookiecutter.feature_class_name|lower }}",
     "feature_method": "add",
-    "help_file_name": "helper",
     "help_class_name": "Helper",
+    "help_file_name": "{{ cookiecutter.help_class_name|lower }}",
     "help_method": "help",
     "src": "src",
     "main": "main"
