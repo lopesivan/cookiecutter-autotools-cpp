@@ -1,0 +1,16 @@
+{
+    "app_name": "my_app",
+    "version": "0.0.2",
+    "description": "Autotools C++ project ",
+    "email": "ivan@ivanlopes.eng.br",
+    "site": "http://ivanlopes.eng.br/",
+    "feature": "my_inc",
+    "feature_class_name": "MyAdd",
+    "feature_file_name": "{{ cookiecutter.feature_class_name|lower }}",
+    "feature_method": "add",
+    "help_file_name": "helper",
+    "help_class_name": "Helper",
+    "help_method": "help",
+    "src": "src",
+    "main": "main"
+}
