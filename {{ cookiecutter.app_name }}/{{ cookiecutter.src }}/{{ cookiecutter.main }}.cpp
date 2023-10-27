@@ -1,6 +1,6 @@
 #include <iostream>
 #include "{{ cookiecutter.help_file_name }}.h"
-#include "../{{ cookiecutter.feature }}/{{ cookiecutter.feature_file_name }}.h"
+#include "../{{ cookiecutter.feature }}/{{ cookiecutter.__feature_file_name }}.h"
 
 int main() {
     {{ cookiecutter.feature_class_name }} {{ cookiecutter.feature_method }}_obj;

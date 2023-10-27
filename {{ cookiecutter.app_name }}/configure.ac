@@ -1,5 +1,6 @@
-# Initialize AC: ACINIT( package_name, version, bug_report_{{ cookiecutter.feature_method }}ress)
-AC_INIT([my_program], [0.1])
+# Process this file with autoconf to produce a configure script.
+AC_INIT([{{ cookiecutter.package_name }}], [{{ cookiecutter.version }}], [{{ cookiecutter.__bug_report}}],
+[{{ cookiecutter.package_name }}], [{{ cookiecutter.__site }}])
 
 # Initialize Automake
 AM_INIT_AUTOMAKE
